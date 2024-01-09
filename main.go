@@ -56,7 +56,7 @@ func (svc *service) Delete(ctx context.Context, userId int, token string) (err e
 	return svc.sessionRepo.Delete(userId)
 }
 func main() {
-	fmt.Println("Hello")
+	fmt.Println("Hello Megha")
 }
 
 // microgen -file=./main.go -out=. -package=microgen/main
